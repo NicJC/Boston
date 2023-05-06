@@ -26,3 +26,7 @@ Below is the R code for the matrix plot further down
 
 
 ![](https://github.com/NicJC/Boston/blob/main/matrixPlot.png)
+
+A Biplot of the data
+
+![](https://github.com/NicJC/Boston/blob/main/biplot.png)
