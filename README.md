@@ -27,6 +27,14 @@ Below is the R code for the matrix plot further down
 
 ![](https://github.com/NicJC/Boston/blob/main/matrixPlot.png)
 
+The R code to create the BiPlot is below:
+
+---
+        df1 <- Boston[, c(4,5,6)]
+
+       biplot(princomp(df1))
+---
+
 A Biplot of the data
 
 ![](https://github.com/NicJC/Boston/blob/main/biplot.png)
