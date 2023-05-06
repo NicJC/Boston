@@ -9,13 +9,20 @@ Below is the R code for the matrix plot below
 
 ---
 library(GGally)
+
 ggpairs(Boston[,c(1,4,5,6)],
+
         mapping = ggplot2::aes(color = Year),
+        
         upper = list(continuous = wrap("density", alpha = 0.5), combo = "box_no_facet"))+ggplot2::labs(title = "Boston Weather")  + 
+        
   theme(axis.text.x = element_text(color="steelblue", 
+  
                                    size=12, angle=90),
-        axis.text.y = element_text( color="steelblue", 
-                                    size=12))
+                                   
+        axis.text.y = element_text( color="steelblue", size=12))
 ---
+
+
 
 ![](https://github.com/NicJC/Boston/blob/main/matrixPlot.png)
