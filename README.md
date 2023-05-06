@@ -5,7 +5,8 @@ Boston weather data
 
 
 ---
-               Boston <- fread("https://raw.githubusercontent.com/NicJC/Boston/main/Boston_weather.csv")
+          library(data.table)
+            Boston <- fread("https://raw.githubusercontent.com/NicJC/Boston/main/Boston_weather.csv")
 ---
 
 Below is the R code for the matrix plot further down
