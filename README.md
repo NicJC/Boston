@@ -38,3 +38,4 @@ The R code to create the BiPlot is below:
 A Biplot of the data
 
 ![](https://github.com/NicJC/Boston/blob/main/biplot.png)
+
