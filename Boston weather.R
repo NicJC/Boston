@@ -26,8 +26,3 @@ ggpairs(Boston[,c(1,4,5,6)],
 ggsave("matrixPlot.png", width = 6, height = 6)
 
 
-
-print(Boston)
-
-
-ggsave("Datatable.png", width = 6, height = 6)
