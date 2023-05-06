@@ -5,7 +5,7 @@ Boston weather data
 
 
 
-Below is the R code for the matrix plot below 
+Below is the R code for the matrix plot further down
 
 ---
         library(GGally)
