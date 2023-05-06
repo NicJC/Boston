@@ -6,6 +6,7 @@ library(tidyverse)
 library(lattice)
 library(data.table)
 library(GGally)
+library(kableExtra)
 
 
 Boston <- read_csv("C:/Data/Boston weather.csv")
@@ -23,3 +24,10 @@ ggpairs(Boston[,c(1,4,5,6)],
                                     size=12))
 
 ggsave("matrixPlot.png", width = 6, height = 6)
+
+
+
+print(Boston)
+
+
+ggsave("Datatable.png", width = 6, height = 6)
